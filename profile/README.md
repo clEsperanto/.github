@@ -6,9 +6,6 @@ The clesperanto project is a multi-language and multi-platform framework for GPU
 
 The project is organised in a set of core-reposiroty dedicated to the low-level functionning of the project, and a set of sattelite repositories corresponding to a different programming language or framework.
 
-## Why use Clesperanto
-
-TODO
 
 ## Repositories and responsabilities
 
