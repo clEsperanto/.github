@@ -1,4 +1,4 @@
-<img src="https://clesperanto.github.io/images/cle_logo.png" width="250" align="center">
+<img src="https://github.com/clEsperanto/.github/assets/811146/943167d4-3904-4af3-a124-07609818a96e" width="250" align="center">
 
 ## About Clesperanto
 
