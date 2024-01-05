@@ -11,7 +11,8 @@ The project is organised in a set of core-reposiroty dedicated to the low-level 
 
 Clesperanto tries to offer at the same time:
 - a unified API for image processing library for different programming languages and frameworks
-- operations for image analysis accelerated by GPU
+- a complete operation librairy for image processing and analysis accelerated by GPU
+- a compatibility with most known and used hardware and system in used
 
 To achieve this goal, the project is organised in various repository listed below with a brief description:
 
@@ -21,7 +22,7 @@ To achieve this goal, the project is organised in various repository listed belo
 | [`CLIc_prototype`](https://github.com/clEsperanto/CLIc_prototype)                   | Common backend C++ library in charge of computation and GPU interactions, dependend of `clij-opencl-kernels`.   | SR          |   |
 | [`pyclesperanto`](https://github.com/clEsperanto/pyclesperanto)                     | Python package for GPU-accelerated image analysis, dependend of `CLIc`.                                         | SR, RH      | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyclesperanto.svg)](https://anaconda.org/conda-forge/pyclesperanto) |
 | [`clesperantoj_prototype`](https://github.com/clEsperanto/clesperantoj_prototype)   | Java library for GPU-accelerated image analysis, dependend of `CLIc`.                                           | SR, RH      |   |
-| [`clij3`](https://github.com/clEsperanto/clij3)                                     | Fiji plugin for GPU image processing in FIJI, dependend of `clesperantoJ`.                                      | RH          | [Fiji update site]([https://imagej.net/update-sites/](https://sites.imagej.net/clesperanto/)) "clesperanto" |
+| [`clij3`](https://github.com/clEsperanto/clij3)                                     | Fiji plugin for GPU image processing in FIJI, dependend of `clesperantoJ`.                                      | RH          | [Fiji update site](https://imagej.net/update-sites/) "clesperanto" |
 | [`pyclesperanto_prototype`](https://github.com/clEsperanto/pyclesperanto_prototype) | Initial Pure-Python package for GPU-accelerated image analysis, dependend of `pyOpenCL`.                                | RH          | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyclesperanto-prototype.svg)](https://anaconda.org/conda-forge/pyclesperanto-prototype) |
 
 Maintainers:
