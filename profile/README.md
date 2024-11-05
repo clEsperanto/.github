@@ -1,4 +1,8 @@
-<img src="https://github.com/clEsperanto/.github/assets/811146/943167d4-3904-4af3-a124-07609818a96e" width="250" align="center">
+<picture>
+  <source srcset="https://github.com/user-attachments/assets/edb9fdb8-03ab-4bda-9f7d-9846e0225406" media="(prefers-color-scheme: light)">
+  <source srcset="https://github.com/user-attachments/assets/dde94985-9e01-4080-b991-ab3ec0890a8d" media="(prefers-color-scheme: dark)">
+  <img src="https://github.com/user-attachments/assets/edb9fdb8-03ab-4bda-9f7d-9846e0225406" alt="clesperanto logo">
+</picture>
 
 ## About Clesperanto
 
