@@ -1,24 +1,19 @@
 <picture>
-  <source srcset="https://github.com/user-attachments/assets/edb9fdb8-03ab-4bda-9f7d-9846e0225406" media="(prefers-color-scheme: light)">
-  <source srcset="https://github.com/user-attachments/assets/dde94985-9e01-4080-b991-ab3ec0890a8d" media="(prefers-color-scheme: dark)">
-  <img src="https://github.com/user-attachments/assets/edb9fdb8-03ab-4bda-9f7d-9846e0225406" alt="clesperanto logo">
+<source srcset="https://github.com/user-attachments/assets/edb9fdb8-03ab-4bda-9f7d-9846e0225406" media="(prefers-color-scheme: light)">
+<source srcset="https://github.com/user-attachments/assets/dde94985-9e01-4080-b991-ab3ec0890a8d" media="(prefers-color-scheme: dark)">
+<img width="500" align="centre" src="https://github.com/user-attachments/assets/edb9fdb8-03ab-4bda-9f7d-9846e0225406" alt="clesperanto logo">
 </picture>
 
 ## About Clesperanto
 
-The clesperanto project is a multi-language and multi-platform framework for GPU-accelerated image processing. It aims in removing language barriers in the scientific image analysis community by proposing a unified interface API for different programming languages and Frameworks, which rely on a common backend library accelerated by GPU.
+clEsperanto project is a multi-language and multi-platform library for GPU-accelerated image processing. It aims in to offer:
+- your favorite image processing functions with GPU-acceleration
+- to remove language barriers by proposing a unified interface API for various programming languages
+- to run on most hardware and system 
 
 The project is organised in a set of core-reposiroty dedicated to the low-level functionning of the project, and a set of sattelite repositories corresponding to a different programming language or framework.
 
-
 ## Repositories and responsabilities
-
-Clesperanto tries to offer at the same time:
-- a unified API for image processing library for different programming languages and frameworks
-- a complete operation librairy for image processing and analysis accelerated by GPU
-- a compatibility with most known and used hardware and system in used
-
-To achieve this goal, the project is organised in various repository listed below with a brief description:
 
 | Repository                                                                          | Description                                                                                                     | Maintainer  | Distribution                                                                        |
 | ------------------------------------------------------------------------------------| ----------------------------------------------------------------------------------------------------------------| ------------| ----------------------------------------------------------------------------------- |
@@ -29,9 +24,7 @@ To achieve this goal, the project is organised in various repository listed belo
 | :coffee: [`clij3`](https://github.com/clEsperanto/clij3)                                     | Fiji plugin for GPU image processing in FIJI, dependend of `clesperantoJ`.                                      | RH          | [Fiji update site](https://imagej.net/update-sites/) "clij3" |
 | :snake: [`prototype`](https://github.com/clEsperanto/pyclesperanto_prototype) | Initial Pure-Python package for GPU-accelerated image analysis, dependend of `pyOpenCL`.                                | RH          | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyclesperanto-prototype.svg)](https://anaconda.org/conda-forge/pyclesperanto-prototype) |
 
-Maintainers:
-- SR: [Stephane Rigaud](https://github.com/strigaud)
-- RH: [Robert Haase](https://github.com/haesleinhuepf)
+Maintainers: SR: [Stephane Rigaud](https://github.com/strigaud), RH: [Robert Haase](https://github.com/haesleinhuepf)
 
 ## How we work together
 
