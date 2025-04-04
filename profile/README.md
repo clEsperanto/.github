@@ -4,8 +4,6 @@
 <img width="500" align="centre" src="https://github.com/user-attachments/assets/edb9fdb8-03ab-4bda-9f7d-9846e0225406" alt="clesperanto logo">
 </picture>
 
-## About Clesperanto
-
 clEsperanto project is a multi-language and multi-platform library for GPU-accelerated image processing. It aims in to offer:
 - your favorite image processing functions with GPU-acceleration
 - to remove language barriers by proposing a unified interface API for various programming languages
